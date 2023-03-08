@@ -15,3 +15,24 @@ for (int i = 1; i <= 2; i++) {
     System.out.println(" Inner: " + j); // Executes 6 times (2 * 3)
   }
 } 
+import java.util.Scanner;
+
+public class Greeting {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        System.out.printf("Hello, %s! You are %d years old.%n", name, age);
+    }
+}
+This program uses the Scanner class from the java.util package to read input from the user. The Scanner is created by passing System.in as the input source, which means it will read input from the console.
+
+The program then prompts the
+
+
+
